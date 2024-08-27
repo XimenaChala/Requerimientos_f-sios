@@ -1,0 +1,29 @@
+@startuml start
+
+:Uso de escáneres de código de barras para agilizar procesos de inventario y ventas en aplicaciones móviles;
+-> Ventajas;
+:Automatización de la entrada de datos;
+:Reducción de errores humanos;
+:Mejora en la velocidad de procesamiento;
+
+:Tipos de escáneres de código de barras y su integración con dispositivos móviles;
+-> Tipos de Escáneres;
+:Escáneres de mano;
+:Escáneres de montaje fijo;
+:Escáneres 2D;
+:Escáneres de imagen;
+-> Integración;
+:Compatibilidad con Android e iOS;
+:Conexión a través de Bluetooth o USB;
+
+:Casos de uso en aplicaciones de comercio electrónico y gestión de inventario;
+-> Comercio Electrónico;
+:Escaneo para actualización de precios y stock en línea;
+:Facilita la búsqueda de productos;
+-> Gestión de Inventario;
+:Control y seguimiento de inventarios en tiempo real;
+:Actualización automática de datos de inventario;
+
+:Conclusión sobre la utilidad de los escáneres de código de barras en distintos contextos;
+stop
+@enduml

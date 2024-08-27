@@ -1,0 +1,25 @@
+@startuml title Lectores de Tarjetas
+
+class "Importancia" {
+  + Transferencia segura de datos
+  + Protección de información sensible
+}
+
+class "Ejemplos" {
+  + Lectores SD
+  + Lectores microSD
+  + Lectores SIM
+  + Compatibilidad con dispositivos móviles
+}
+
+class "Aplicaciones" {
+  + Transferencia de archivos
+  + Autenticación de dos factores
+  + Acceso a información confidencial
+}
+
+"Importancia" --> "Ejemplos" : Relacionado con
+"Importancia" --> "Aplicaciones" : Beneficios para
+"Ejemplos" --> "Aplicaciones" : Usos en
+
+@enduml

@@ -1,0 +1,33 @@
+@startuml start
+
+:Explorar cómo los dispositivos de VR y AR amplían las capacidades de las aplicaciones móviles;
+-> Capacidades Ampliadas;
+:Inmersión en entornos virtuales y aumentados;
+:Interacción mejorada con el entorno digital;
+
+:Ejemplos de dispositivos de VR y AR compatibles con dispositivos móviles;
+-> Dispositivos de VR;
+:Oculus Quest, HTC Vive, PlayStation VR;
+-> Dispositivos de AR;
+:Microsoft HoloLens, Magic Leap, Google Glass;
+
+:Casos de uso en aplicaciones de entretenimiento, educación y simulación;
+
+if (Aplicaciones de Entretenimiento?) then (sí)
+    :Experiencias inmersivas en juegos y películas;
+    :Simulaciones y mundos virtuales interactivos;
+else (no)
+    if (Aplicaciones de Educación?) then (sí)
+        :Aprendizaje interactivo mediante simulaciones y visualizaciones 3D;
+        :Entornos virtuales para prácticas y formación;
+    else (no)
+        if (Aplicaciones de Simulación?) then (sí)
+            :Simulaciones de escenarios del mundo real para entrenamiento;
+            :Modelado y pruebas en entornos virtuales;
+        endif
+    endif
+endif
+
+:Conclusión sobre la utilidad de VR y AR en diferentes contextos de aplicaciones;
+stop
+@enduml

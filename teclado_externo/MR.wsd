@@ -1,0 +1,30 @@
+@startuml start
+
+:Ventajas de utilizar teclados externos para la productividad en dispositivos móviles;
+-> Ventajas;
+:Mejora la velocidad de escritura y la ergonomía;
+:Facilita el trabajo en documentos extensos y correos electrónicos;
+-> Tipos de Teclados Externos;
+:Tipos disponibles y compatibilidad;
+:Teclados mecánicos, membrana, plegables, etc.;
+
+:¿Qué tipo de teclado es compatible?;
+-> Ejemplos de Compatibilidad;
+:Compatibilidad con Android, iOS, y Windows;
+:Teclados Bluetooth y USB;
+
+:Analizar escenarios de uso en aplicaciones de productividad y escritura;
+
+if (Aplicación de Productividad?) then (sí)
+    :Aplicaciones como Microsoft Office, Google Docs;
+else (no)
+    if (Aplicación de Escritura?) then (sí)
+        :Aplicaciones como Evernote, Notion;
+    else (no)
+        :Otras aplicaciones que pueden beneficiarse de un teclado externo;
+    endif
+endif
+
+:Conclusión sobre la utilidad de los teclados externos en diferentes contextos;
+stop
+@enduml

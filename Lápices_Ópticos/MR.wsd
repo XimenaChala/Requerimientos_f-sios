@@ -1,0 +1,25 @@
+@startuml actor Usuario
+
+package "Aplicaciones de Dibujo" {
+  usecase "Dibujar con precisión" as UC_Dibujo
+  usecase "Trazos detallados" as UC_Trazos
+}
+
+package "Aplicaciones de Toma de Notas" {
+  usecase "Escribir con precisión" as UC_Escribir
+  usecase "Convertir notas a texto digital" as UC_Convertir
+}
+
+package "Comparación de Modelos" {
+  usecase "Comparar características" as UC_Comparar
+  usecase "Elegir el mejor lápiz óptico" as UC_Elegir
+}
+
+Usuario --> UC_Dibujo : "Usa para dibujar"
+Usuario --> UC_Trazos : "Usa para trazos"
+Usuario --> UC_Escribir : "Usa para escribir"
+Usuario --> UC_Convertir : "Usa para convertir"
+Usuario --> UC_Comparar : "Investiga modelos"
+Usuario --> UC_Elegir : "Selecciona un modelo"
+
+@enduml

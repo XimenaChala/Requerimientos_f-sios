@@ -1,0 +1,31 @@
+@startuml start
+
+:Descripción de cómo los gamepads mejoran la experiencia de juego en móviles;
+-> Gamepads;
+:Mejoran la precisión y el control;
+-> Jugabilidad;
+:Mayor inmersión y respuesta rápida en juegos;
+-> Comparación;
+:Comparar experiencia de juego con y sin gamepad;
+
+:¿Qué gamepads son compatibles?;
+-> Ejemplos de Gamepads Populares;
+:Ejemplos como Razer Kishi, SteelSeries Stratus, Xbox Wireless Controller;
+
+:Analizar diferentes géneros de juegos;
+
+if (Género de juego es Acción?) then (sí)
+    :Necesidad de precisión en disparos;
+else (no)
+    if (Género de juego es Carreras?) then (sí)
+        :Uso de joysticks para control preciso;
+    else (no)
+        if (Género de juego es Aventura?) then (sí)
+            :Interacción rápida con el entorno;
+        endif
+    endif
+endif
+
+:Conclusión sobre la utilidad del gamepad en diferentes contextos;
+stop
+@enduml
